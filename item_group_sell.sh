@@ -1,20 +1,17 @@
 #!/bin/bash
 awk '
 BEGIN {
-#count=0
+
 }
 
 NR>1 {
-
 count[$3]++
-
-
 }
 
 END {
-for (p in count) {
-		print p, count[p]
-	}
+for (i in count){
+	print "Item -:" i, count[i]
 }
 
+}
 ' sample.csv
