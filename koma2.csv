@@ -1,0 +1,11 @@
+OrderID,ProductName,Category,Quantity,UnitPrice,TotalPrice,SaleDate
+1001,Wireless Mouse,Electronics,3,450,1350,2024-01-15
+1002,Notebook,Stationery,10,50,500,2024-01-16
+1003,USB-C Cable,Electronics,5,200,1000,2024-01-17
+1004,Coffee Mug,Kitchen,2,150,300,2024-01-18
+1005,LED Monitor,Electronics,1,8500,8500,2024-01-19
+1006,Pen Drive 32GB,Electronics,4,600,2400,2024-01-20
+1007,Desk Chair,Furniture,1,4500,4500,2024-01-21
+1008,Water Bottle,Kitchen,6,120,720,2024-01-22
+1009,Printer Paper,Stationery,20,5,100,2024-01-23
+1010,Smartphone,Electronics,2,15000,30000,2024-01-24
