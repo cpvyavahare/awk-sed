@@ -1,0 +1,27 @@
+Apr 20 09:15:32 myhost systemd[1]: Started Daily apt download activities.
+Apr 20 09:15:32 myhost systemd[1]: Starting Daily apt upgrade and clean activities...
+Apr 20 09:15:33 myhost systemd[1]: Finished Daily apt upgrade and clean activities.
+Apr 20 09:16:01 myhost CRON[2456]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 20 09:17:45 myhost kernel: [  123.456789] eth0: Link is Up - 1Gbps Full Duplex
+Apr 20 09:17:45 myhost kernel: [  123.456800] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Apr 20 09:18:12 myhost sshd[3124]: Accepted password for testuser from 192.168.1.50 port 54321 ssh2
+Apr 20 09:18:12 myhost sshd[3124]: pam_unix(sshd:session): session opened for user testuser by (uid=0)
+Apr 20 09:20:01 myhost CRON[3201]: (root) CMD (/usr/local/bin/backup.sh)
+Apr 20 09:20:01 myhost CRON[3202]: (www-data) CMD (/usr/local/bin/cache_cleanup.sh)
+Apr 20 09:21:15 myhost sudo[3250]:   testuser : TTY=pts/0 ; PWD=/home/testuser ; USER=root ; COMMAND=/bin/systemctl restart apache2
+Apr 20 09:21:15 myhost sudo[3250]: pam_unix(sudo:session): session opened for user root by testuser(uid=0)
+Apr 20 09:21:16 myhost systemd[1]: Stopping Apache HTTP Server...
+Apr 20 09:21:16 myhost systemd[1]: apache2.service: Succeeded.
+Apr 20 09:21:16 myhost systemd[1]: Stopped Apache HTTP Server.
+Apr 20 09:21:16 myhost systemd[1]: Starting Apache HTTP Server...
+Apr 20 09:21:17 myhost systemd[1]: Started Apache HTTP Server.
+Apr 20 09:25:42 myhost kernel: [  456.789012] usb 1-1: USB disconnect, device number 4
+Apr 20 09:26:05 myhost kernel: [  479.123456] usb 1-1: new high-speed USB device number 5 using xhci_hcd
+Apr 20 09:26:05 myhost kernel: [  479.234567] usb 1-1: New USB device found, idVendor=0781, idProduct=5567, bcdDevice=1.00
+Apr 20 09:26:05 myhost kernel: [  479.234580] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Apr 20 09:26:05 myhost kernel: [  479.234585] usb 1-1: Product: Cruzer Blade
+Apr 20 09:26:05 myhost kernel: [  479.234589] usb 1-1: Manufacturer: SanDisk
+Apr 20 09:26:05 myhost kernel: [  479.234592] usb 1-1: SerialNumber: 1234567890ABCDEF
+Apr 20 09:30:01 myhost CRON[3500]: (root) CMD (/usr/local/bin/logrotate /etc/logrotate.conf)
+Apr 20 09:35:12 myhost systemd[1]: Starting Cleanup of Temporary Directories...
+Apr 20 09:35:12 myhost systemd[1]: Finished Cleanup of Temporary Directories.
